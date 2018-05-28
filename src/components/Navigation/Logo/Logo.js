@@ -7,6 +7,11 @@ const StyledLogo = styled.span`
 	margin-left: 10px;
   display: flex;
   align-items: center;
+  color: White;
+
+  &:hover {
+  	cursor:pointer;
+  }
 `;
 
 

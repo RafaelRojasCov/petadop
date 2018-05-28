@@ -7,6 +7,7 @@ const Search = Input.Search;
 const SearchInput = styled.div`
 	display: flex;
 	align-items: center;
+	flex-grow: 1;
 `;
 
 export default class SearchBox extends Component {
