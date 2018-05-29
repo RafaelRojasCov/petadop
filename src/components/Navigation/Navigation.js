@@ -9,21 +9,20 @@ import styled from 'styled-components';
 const LeftMenu = styled.div`
 	display: flex;
 	justify-content: flex-start;
-	max-width: 400px;
+	max-width: 500px;
 	flex-grow: 1;
-	flex-wrap: wrap;
 `;
 
 const RightMenu = styled.div`
 	display: flex;
 	justify-content: flex-end;
 	flex-grow: 1;
-	flex-wrap: wrap;
 `;
 
 const TopRow = styled.div`
 	display: flex;
 	height: 60px;
+	flex-wrap: wrap;
 `;
 
 const BottomRow = styled.div`
@@ -57,7 +56,6 @@ export default class Navigation extends Component {
 							<Register />
 							<Login />
 					</RightMenu>
-
 				</TopRow>
 
 				{/* Fila inferior del menu */}

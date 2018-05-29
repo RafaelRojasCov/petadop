@@ -3,7 +3,6 @@ import { Menu, Icon } from 'antd';
 
 const SubMenu = Menu.SubMenu;
 
-
 export default class MenuBar extends Component {
 
 	state = {
@@ -61,7 +60,6 @@ export default class MenuBar extends Component {
             <Menu.Item key="size:8">Desparasitado</Menu.Item>
             <Menu.Item key="size:8">Todos</Menu.Item>
           </SubMenu>
-
         </SubMenu>
 
         <Menu.Item key="seBusca">

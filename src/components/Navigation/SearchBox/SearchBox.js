@@ -7,6 +7,7 @@ const Search = Input.Search;
 const SearchInput = styled.div`
 	display: flex;
 	align-items: center;
+	margin-right: 10px;
 	flex-grow: 1;
 `;
 
