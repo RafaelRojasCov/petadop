@@ -15,16 +15,34 @@ const StyledTitle = styled.h1`
 `;
 
 
-export default class PinnedPosts extends Component {
+export default class PostList extends Component {
 	render(){
 		return(
 			<Container>
 				<Row type="flex" justify="start" align="middle">
 					<StyledTitle>
-						Destacados...
+						Recientes...
 					</StyledTitle>
 				</Row>
 		    <Row type="flex" justify="center" align="middle" gutter={16}>
+		      <Col xs={24} sm={8} md={6} lg={6} xl={4}>
+						<Posts />
+		      </Col>
+		      <Col xs={24} sm={8} md={6} lg={6} xl={4}>
+						<Posts />
+		      </Col>
+		      <Col xs={24} sm={8} md={6} lg={6} xl={4}>
+						<Posts />
+		      </Col>
+		      <Col xs={24} sm={8} md={6} lg={6} xl={4}>
+						<Posts />
+		      </Col>
+		      <Col xs={24} sm={8} md={6} lg={6} xl={4}>
+						<Posts />
+		      </Col>
+		      <Col xs={24} sm={8} md={6} lg={6} xl={4}>
+						<Posts />
+		      </Col>
 		      <Col xs={24} sm={8} md={6} lg={6} xl={4}>
 						<Posts />
 		      </Col>

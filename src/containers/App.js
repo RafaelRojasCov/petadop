@@ -3,9 +3,10 @@ import styled from 'styled-components';
 import Navigation from '../components/Navigation/Navigation';
 import Slideshow from '../components/Slideshow/Slideshow';
 import PinnedPosts from '../components/PinnedPosts/PinnedPosts';
+import PostList from '../components/PostList/PostList';
 
 const StyledApp = styled.div`
-  background: #d7dae0;
+  background: #ebebeb;
 `;
 
 export default class App extends Component {
@@ -15,9 +16,7 @@ export default class App extends Component {
       	<Navigation />
       	<Slideshow />
         <PinnedPosts />
-        <PinnedPosts />
-        <PinnedPosts />
-        <PinnedPosts />
+        <PostList />
       </StyledApp>
     );
   }
